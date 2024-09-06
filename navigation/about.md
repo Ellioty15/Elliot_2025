@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<button onclick="window.location.href='http://127.0.0.1:4100/student_2025/';">
+<button onclick="window.location.href='http://127.0.0.1:4100/elliot_2025/';">
   Go to Student 2025 Page
 </button>
 
