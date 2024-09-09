@@ -1,41 +1,61 @@
 ---
 layout: base
-title: Student Home 
+title: Elliot's Home 
 description: Home Page
 hide: true
 ---
 
-My journey starts here.
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mario Running</title>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-    }
-    .mario {
-      position: absolute;
-      top: 50%;
-      left: -200px; 
-      transform: translateY(70%);
-      width: 100px;
-      animation: runAcross 5s linear infinite;
-    }
-    @keyframes runAcross {
-      from {
-        left: -200px; 
-      }
-      to {
-        left: 100vw; 
-      }
-    }
-  </style>
-</head>
+<h1>Welcome to my Homepage!</h1>
+
+<p style="font-family: 'Times New Roman', sans-serif;">Here are some fun videos, songs, and more that are motivating or entertaining.</p>
+
+<h2>Do you ever feel burnt out?</h2>
+<p>
+  There are many cases when students are tired with school and have no motivation to work.
+  <br> There can be many reasons for this lack of motivation, such as not getting the grades they want, or maybe even trying to escape things like homework by spending time on social media.
+  <br> In my personal case, I scroll on social media and waste a lot of time. 
+  <br> However, every once in a while, I come across videos that remind me of the work that I need to do and help me get back on track.
+  <br> Here's some encouragement and motivation.
+</p>
+<button onclick="window.open('https://www.youtube.com/watch?v=hTSZ-fDdF1Y', '_blank');">Here's some Motivation</button>
+
+<h2>What should I listen to?</h2>
+<p>Here's a playlist that I often listen to while studying or just chilling.</p>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EIgKXhXqo61vc?utm_source=generator" width="70%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<h2>Bored?</h2>
 <body>
-  <img src="https://i.gifer.com/origin/ac/acf3abb6da430dd78cc99f925bb52d49_w200.webp" alt="Mario running" class="mario">
-</body>
-</html>
+  When I'm bored, I often watch videos on YouTube. Most of the content that I watch are either informational; specifically for having healthier study habits and exercise, or about nature.</body>
+<break>
+  <a href="https://www.youtube.com/watch?v=zwrKUqFvi3A" target="_blank">Snorkeling at Night</a>
+  |
+  <a href="https://www.youtube.com/watch?v=vD-dEl7R2Bg" target="_blank">Excercise Tier List</a>
+  |
+  <a href="https://www.youtube.com/watch?v=_w2ZL0dJSZk" target="_blank">How to Manage time as a Student</a>
+
+<!-- Mario Running Animation -->
+<img src="https://i.gifer.com/origin/ac/acf3abb6da430dd78cc99f925bb52d49_w200.webp" alt="Mario running" class="mario">
+
+<style>
+  body {
+    margin: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+  .mario {
+    position: fixed;
+    top: 100%; /* Aligns Mario to the bottom of the screen */
+    left: -200px; 
+    transform: translateY(-100%); /* Keeps Mario visible just above the bottom edge */
+    width: 100px;
+    animation: runAcross 5s linear infinite;
+  }
+  @keyframes runAcross {
+    from {
+      left: -200px; 
+    }
+    to {
+      left: 100vw; 
+    }
+  }
+</style>
 
