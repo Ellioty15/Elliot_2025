@@ -38,11 +38,10 @@ permalink: /about/
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" 
            alt="South Korean Flag" class="resized-image" style="width: 200px; height: auto;">
     </div>
-
     <!-- Christian Cross -->
     <div class="image-container">
       <img src="https://www.shutterstock.com/image-vector/christian-cross-vector-260nw-1154133316.jpg" 
-           alt="Cross" class="resized-image" style="width: 200px; height: auto;">
+           alt="Cross" class="resized-image" style="width: 200px; height: 180px;">
     </div>
   </div>
 
