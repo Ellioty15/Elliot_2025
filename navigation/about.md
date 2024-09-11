@@ -63,7 +63,9 @@ permalink: /about/
     <li>👨‍💻I want to learn to code.</li>
     <li>🧜🏼‍♂️For college, I want to stay in San Diego.</li>
   </ul>
-
+<a href="/elliot_2025/music/" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; border-radius: 5px;">
+  Learn more about music here!
+</a>
   <style>
     .image-container {
       width: 200px;
