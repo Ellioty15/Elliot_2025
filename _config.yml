@@ -4,7 +4,7 @@ owner_name: Elliot Yang
 github_username: Ellioty15
 github_repo: "Elliot_2025" 
 baseurl: "/elliot_2025"
-future: 
+future: true
 remote_theme: pages-themes/cayman@v0.2.0
 minima:
   skin: dark
