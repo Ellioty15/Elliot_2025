@@ -17,7 +17,6 @@ permalink: /music/
        <div class="image-container">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgkzEL8IVIln1BsguNOW7eMG5UHR6PHD4Bg&s" alt="Michael Jackson" class="resized-image" style="width: 200px; height: 180px;">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/69AaAkdktFGnk9POmHENkT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </ul>
     </div>
     <h2>A little bit about Rap</h2>
     <ul>
