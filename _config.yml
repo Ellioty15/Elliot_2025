@@ -25,9 +25,11 @@ header_pages:
   - navigation/about.md
   - navigation/journey.md
   - navigation/music.md
+  - navigation/gamesandmore.md
   - navigation/notebook.md
   - navigation/notebook1.md
   - navigation/notebook2.md
   - navigation/notebook3.md
+  - navigation/cookieclicker.md
   - README4YML.md
 
