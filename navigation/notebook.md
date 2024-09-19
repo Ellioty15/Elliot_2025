@@ -32,5 +32,3 @@ permalink: /notebook/
 </div>
 
 
-
-
