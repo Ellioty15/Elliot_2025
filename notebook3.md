@@ -34,3 +34,11 @@ With help, I learned how to setup correctly through powershell without running a
 - I constantly changed the style of my games to what I wanted to look
 - I uploaded my own images so that the games would look less boring
 - I spent a couple hours adding all the games until they had the functions that I wanted.
+
+<script src="https://utteranc.es/client.js"
+        repo="Ellioty15/Elliot_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

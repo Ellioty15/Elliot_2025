@@ -34,3 +34,11 @@ In this project, we will focus on creating an information site. The key requirem
 
 - [Github Pages Documentation](httpsL//docs.github.com/en/pages)
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
+
+<script src="https://utteranc.es/client.js"
+        repo="Ellioty15/Elliot_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

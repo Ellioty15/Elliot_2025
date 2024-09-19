@@ -79,3 +79,12 @@ permalink: /about/
     }
   </style>
 </body>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="Ellioty15/Elliot_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

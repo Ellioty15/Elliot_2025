@@ -27,3 +27,11 @@ permalink: /music/
         <li>Some of my favorite artists in this genre are JID, J. Cole, Kendrick Lamar, and more.</li>
     </ul>
 <body> Kendrick Lamar's "Damn" Album<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4eLPsYPBmXABThSJ821sqY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<script src="https://utteranc.es/client.js"
+        repo="Ellioty15/Elliot_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

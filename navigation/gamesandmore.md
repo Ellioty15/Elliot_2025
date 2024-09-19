@@ -2,6 +2,7 @@
 layout: page
 title: Games and More
 permalink: /gamesandmore/
+hide: true
 ---
 
 <div style="text-align: center; margin-top: 20px;">
