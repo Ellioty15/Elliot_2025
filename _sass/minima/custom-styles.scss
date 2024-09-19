@@ -12,4 +12,13 @@
 // Mix Light themes with this if your eyes are bleeding 
 @import "minima/dracula/dark-mode";
 @import "nighthawk/main";
-
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+// We can use the mixin to reduce complexity in our code
+.box {
+    @include border-radius(10px);
+}
+$primary-button-color: #009494;
+$hover-color: black;
+$menu-color: #f2f2f2;

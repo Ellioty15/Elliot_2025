@@ -9,7 +9,7 @@ hide: false
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Javascript Calculator</title>
+  <title>Javascript Calculator, Binary Calculator</title>
 
   <meta name="description" content="A common way to become familiar with a language is to build a calculator. This calculator shows off button with actions." />
   <!-- Include CSS for styling -->
@@ -188,10 +188,116 @@ hide: false
       </article>
     </div>
   </main>
-  <footer class="site-footer">
-    <div class="wrapper">
-      <p>&copy; 2024 My Handy Calculator</p>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .calculator {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .binary-display {
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .controls {
+            margin: 10px;
+        }
+        .color-display {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Binary Calculator</h1>
+    <div class="calculator">
+        <!-- Binary Manipulation Section 1 -->
+        <div>
+            <h2>Binary Section 1</h2>
+            <div class="binary-display" id="binary1">00000000</div>
+            <div class="controls">
+                <button onclick="addBinary(1)">Add 1</button>
+                <button onclick="subtractBinary(1)">Subtract 1</button>
+            </div>
+        </div>
+
+        <!-- Binary Manipulation Section 2 -->
+        <div>
+            <h2>Binary Section 2</h2>
+            <div class="binary-display" id="binary2">00000000</div>
+            <div class="controls">
+                <button onclick="addBinary(2)">Add 1</button>
+                <button onclick="subtractBinary(2)">Subtract 1</button>
+            </div>
+        </div>
+
+        <!-- Binary Manipulation Section 3 -->
+        <div>
+            <h2>Binary Section 3</h2>
+            <div class="binary-display" id="binary3">00000000</div>
+            <div class="controls">
+                <button onclick="addBinary(3)">Add 1</button>
+                <button onclick="subtractBinary(3)">Subtract 1</button>
+            </div>
+        </div>
+
+        <!-- RGB Color Display -->
+        <h2>Color Display (RGB)</h2>
+        <div class="color-display" id="colorDisplay"></div>
     </div>
-  </footer>
+
+    <script>
+        // Initialize values for each binary section (8-bit binary max 255, min 0)
+        let binaryValues = [0, 0, 0]; // Holds values for binary1, binary2, binary3
+
+        // Function to update the binary display and color
+        function updateDisplay() {
+            document.getElementById('binary1').textContent = decimalToBinary(binaryValues[0]);
+            document.getElementById('binary2').textContent = decimalToBinary(binaryValues[1]);
+            document.getElementById('binary3').textContent = decimalToBinary(binaryValues[2]);
+
+            // Update RGB color display based on the binary values
+            document.getElementById('colorDisplay').style.backgroundColor = `rgb(${binaryValues[0]}, ${binaryValues[1]}, ${binaryValues[2]})`;
+        }
+
+        // Function to convert a decimal value to 8-bit binary (padding with zeros)
+        function decimalToBinary(decimal) {
+            return ('00000000' + decimal.toString(2)).slice(-8);
+        }
+
+        // Function to add 1 to the binary value (with overflow check)
+        function addBinary(section) {
+            if (binaryValues[section - 1] < 255) {
+                binaryValues[section - 1]++;
+            } else {
+                binaryValues[section - 1] = 0; // Reset to 0 on overflow
+            }
+            updateDisplay();
+        }
+
+        // Function to subtract 1 from the binary value (with underflow check)
+        function subtractBinary(section) {
+            if (binaryValues[section - 1] > 0) {
+                binaryValues[section - 1]--;
+            } else {
+                binaryValues[section - 1] = 255; // Reset to 255 on underflow
+            }
+            updateDisplay();
+        }
+
+        // Initial display update
+        updateDisplay();
+    </script>
 </body>
 </html>
