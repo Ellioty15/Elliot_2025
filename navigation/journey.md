@@ -27,3 +27,11 @@ permalink: /journey/
     <li>Run the command <code>code .</code> to open VS Code.</li>
     <li>Ensure that when VS Code is opened, the bottom left of VS Code is blue. This indicates that it is connected with WSL.</li>
 </ol>
+
+<script src="https://utteranc.es/client.js"
+        repo="Ellioty15/Elliot_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -58,4 +58,97 @@ hide: true
     }
   }
 </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subpage - Dropdown Project Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown button:hover {
+            background-color: #45a049;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            display: block;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            background-color: #45a049;
+        }
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Subpages</h1>
+    <!-- Dropdown Button -->
+    <div class="dropdown">
+        <button class="dropdown-button" onclick="toggleDropdown()">
+            Games and Notebooks
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="cookieclicker">Cookie Clicker</a>
+            <a href="calculator">Binary Calculator</a>
+            <a href="snakegame">Snake Game</a>
+            <a href="notebook1">Notebook 1</a>
+            <a href="notebook2">Notebook 2</a>
+            <a href="notebook3">Notebook 3</a>
+        </div>
+    </div>
+    <p><a href="index.html">Back to Index</a></p>
+    <script>
+        // Toggle between showing and hiding the dropdown content
+        function toggleDropdown() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
 
