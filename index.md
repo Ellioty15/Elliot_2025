@@ -70,16 +70,13 @@ hide: true
             margin: 20px;
             padding: 0;
         }
-
         h1 {
             color: #4CAF50;
         }
-
         .dropdown {
             position: relative;
             display: inline-block;
         }
-
         .dropdown button {
             background-color: #4CAF50;
             color: white;
@@ -88,11 +85,9 @@ hide: true
             border: none;
             cursor: pointer;
         }
-
         .dropdown button:hover {
             background-color: #45a049;
         }
-
         .dropdown-content {
             display: none;
             position: absolute;
@@ -101,27 +96,19 @@ hide: true
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
         }
-
-        .dropdown-content button {
-            background-color: #f1f1f1;
-            color: black;
-            padding: 12px;
-            width: 100%;
-            text-align: left;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .dropdown-content button:hover {
-            background-color: #ddd;
-        }
-
         .dropdown-content a {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            display: block;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 20px;
             text-decoration: none;
-            color: black;
         }
-
+        .dropdown-content a:hover {
+            background-color: #45a049;
+        }
         .show {
             display: block;
         }
@@ -129,31 +116,29 @@ hide: true
 </head>
 <body>
     <h1>Subpages</h1>
-
     <!-- Dropdown Button -->
     <div class="dropdown">
-        <button onclick="toggleDropdown()">My subpages</button>
-        <div id="myDropdown" class="dropdown-content">
-            <a href="notebook1.md"><button>Notebook 1</button></a>
-            <a href="notebook2.md"><button>Notebook 2</button></a>
-            <a href="notebook3.md"><button>Notebook 3</button></a>
-            <a href="cookieclicker.md"><button>Cookie Clicker</button></a>
-            <a href="calculator.md"><button>Calculator</button></a>
-            <a href="snakegame.md"><button>Snake Game</button></a>
+        <button class="dropdown-button" onclick="toggleDropdown()">
+            Games and Notebooks
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="cookieclicker">Cookie Clicker</a>
+            <a href="calculator">Binary Calculator</a>
+            <a href="snakegame">Snake Game</a>
+            <a href="notebook1">Notebook 1</a>
+            <a href="notebook2">Notebook 2</a>
+            <a href="notebook3">Notebook 3</a>
         </div>
     </div>
-
     <p><a href="index.html">Back to Index</a></p>
-
     <script>
-        /* Toggle between showing and hiding the dropdown content */
+        // Toggle between showing and hiding the dropdown content
         function toggleDropdown() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
-
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {
-            if (!event.target.matches('.dropdown button')) {
+            if (!event.target.matches('.dropdown-button')) {
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 for (var i = 0; i < dropdowns.length; i++) {
                     var openDropdown = dropdowns[i];
@@ -167,10 +152,3 @@ hide: true
 </body>
 </html>
 
-<script src="https://utteranc.es/client.js"
-        repo="Ellioty15/Elliot_2025"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
