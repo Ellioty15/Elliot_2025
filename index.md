@@ -33,6 +33,23 @@ hide: true
   |
   <a href="https://www.youtube.com/watch?v=_w2ZL0dJSZk" target="_blank">How to Manage time as a Student</a>
 
+<h3>3.8 Iterances</h3>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested If Statements</title>
+</head>
+<body>
+    <button onclick="location.href='http://127.0.0.1:4100/Elliot_2025/2024/09/25/nestedifstatements_IPYNB_2_.html';">
+        Open Nested If Statements
+    </button>
+    <button onclick="location.href='http://127.0.0.1:4100/Elliot_2025/2024/09/25/loopingwithindex_IPYNB_2_.html';">
+        Open Looping with Index Notebook
+    </button>
+</body>
+</html>
+
 <!-- Mario Running Animation -->
 <img src="https://i.gifer.com/origin/ac/acf3abb6da430dd78cc99f925bb52d49_w200.webp" alt="Mario running" class="mario">
 
@@ -151,6 +168,9 @@ hide: true
     </script>
 </body>
 </html>
+
+
+
 
 <script src="https://utteranc.es/client.js"
         repo="Ellioty15/Elliot_2025"
