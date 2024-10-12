@@ -50,6 +50,18 @@ hide: true
 </body>
 </html>
 
+<div>
+<table>
+    <tr>
+
+        <td><a href="{{site.baseurl}}/hw1/">3.2</a></td>
+        <td><a href="{{site.baseurl}}/hw2/">3.10</a></td>
+
+ </tr>
+
+</table>
+</div>
+
 <!-- Mario Running Animation -->
 <img src="https://i.gifer.com/origin/ac/acf3abb6da430dd78cc99f925bb52d49_w200.webp" alt="Mario running" class="mario">
 
