@@ -28,6 +28,20 @@ permalink: /journey/
     <li>Ensure that when VS Code is opened, the bottom left of VS Code is blue. This indicates that it is connected with WSL.</li>
 </ol>
 
+<h2>Sprint 1</h2>
+    <ul>
+        <li>I made several different pages in Sprint 1
+        <li>I learned how to link my new files to pages and how to create a permalink
+        <li>I added to my about and index pages in order to talk about myself and guide myself throughout my webpage. 
+        <li>I created several different games and also a calculator
+<h2>Sprint 2</h2>
+    <ul>
+        <li>Our group split the code into 4 different parts. 
+        <li>I was in charge of nested if statements and looping with indexes
+        <li>I made several homework hacks and made two notebooks that were part of the webpage of our lesson
+
+
+
 <script src="https://utteranc.es/client.js"
         repo="Ellioty15/Elliot_2025"
         issue-term="pathname"
