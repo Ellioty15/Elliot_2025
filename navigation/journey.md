@@ -33,13 +33,15 @@ permalink: /journey/
         <li>I made several different pages in Sprint 1
         <li>I learned how to link my new files to pages and how to create a permalink
         <li>I added to my about and index pages in order to talk about myself and guide myself throughout my webpage. 
-        <li>I created several different games and also a calculator
+        <li>I created several different games and also a calculator.
+        <li>Overall, I had a lot of help from my classmates and learned how to use notebooks, files, and format code, as well as use hyperlinks and buttons in my code.
+        </ul>
 <h2>Sprint 2</h2>
     <ul>
         <li>Our group split the code into 4 different parts. 
         <li>I was in charge of nested if statements and looping with indexes
         <li>I made several homework hacks and made two notebooks that were part of the webpage of our lesson
-
+        </ul>
 
 
 <script src="https://utteranc.es/client.js"

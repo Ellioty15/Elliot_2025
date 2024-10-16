@@ -38,6 +38,8 @@ hide: true
     <tr>
       <td><a href="{{site.baseurl}}/hw1/">3.2</a></td>
       <td><a href="{{site.baseurl}}/hw2/">3.10</a></td>
+      <td><a href="/Sprint2blog/">Sprint 2 Review Blog</a></td>
+      
     </tr>
   </table>
 </div>
