@@ -43,6 +43,10 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - uses: actions/setup-node@v3
+        with:
+            node-version: '20'
+
 
   # Deployment job
   deploy:
@@ -55,3 +59,32 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+        name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install nbconvert
+        pip install -r requirements.txt
+
+    - name: Run nbconvert
+      run: |
+        jupyter nbconvert --to html my_notebook.ipynb
+
