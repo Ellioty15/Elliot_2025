@@ -60,6 +60,8 @@ permalink: /journey/
   - Our group has implemented functions for sharing music.
   - We have a way to show artists and details on small artists.
 
+# tech talk notes
+ - 
 <script src="https://utteranc.es/client.js"
         repo="Ellioty15/Elliot_2025"
         issue-term="pathname"
