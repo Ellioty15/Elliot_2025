@@ -59,8 +59,15 @@ permalink: /journey/
   - Changes are showing in the backend.
   - Our group has implemented functions for sharing music.
   - We have a way to show artists and details on small artists.
-
-# tech talk notes
+  
+## my API
+ - we are putting our API into our frostbyte backend
+ - little server: go to portfolio 2025, copy code fron notebook into app.py
+ - we started working on little server using live share, which was frustrating as liveshare would disconnect me often
+ - we made a student.py and an app.py, we are going to run app.py so it displays all our data, and we will be able to call code from student.py
+ - We have successfully displayed student data tables on the front end.
+ - we copied the code and tried to replicate it while customizing it to contain content about ourselves
+ - big server:try making an API in the big server using knowledge from the little server
  - 
 <script src="https://utteranc.es/client.js"
         repo="Ellioty15/Elliot_2025"
