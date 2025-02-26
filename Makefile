@@ -10,11 +10,12 @@ SHELL = /bin/bash -c
 .PHONY: default server issues convert clean stop
 
 # List all .ipynb files in the _notebooks directory
-NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb')
+NOTEBOOK_FILES := $(shell find _notebooks -type f -name '*.ipynb')
 
 # Specify the target directory for the converted Markdown files
 DESTINATION_DIRECTORY = _posts
 MARKDOWN_FILES := $(patsubst _notebooks/%.ipynb,$(DESTINATION_DIRECTORY)/%_IPYNB_2_.md,$(NOTEBOOK_FILES))
+
 
 # Call server, then verify and start logging	
 # ...
@@ -65,8 +66,8 @@ convert: $(MARKDOWN_FILES)
 
 # Convert .ipynb files to Markdown with front matter, preserving directory structure
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
-	@echo "Converting source $< to destination $@"
-	@mkdir -p $(@D)
+	@echo "Converting source '$<' to destination '$@'"
+	@mkdir -p "$(@D)"
 	@python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "$<"
 
 # Clean up project derived files, to avoid run issues stop is dependency
