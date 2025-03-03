@@ -14,8 +14,9 @@ permalink: /trimester2review/
         <a href="../big_idea_4/" class="btn big-idea-4">Big Idea 4 Blog</a>
         <a href="../CSApractice/" class="btn AP-CSA-MC">AP CSA Multiple Choice Practice</a>
         <a href="../5things/" class="btn five-things">5 Things That I Did</a>
-</div>
-
+        <a href="../blog_frostbyte/" class="btn frostbyte-blog">Frostbyte Blog</a>
+        <a href="../NATM_experience/" class="btn natm-experience">NATM Experience</a> <!-- Updated Color -->
+    </div>
 </div>
 
 <style>
@@ -61,16 +62,18 @@ permalink: /trimester2review/
     .big-idea-3 { background-color: #C2B280; }  /* Sand Dune Beige */
     .big-idea-4 { background-color: #556B2F; }  /* Cactus Green */
     .AP-CSA-MC { background-color: #709F34; }  /* Sage Green */
-    .five-things { background-color: #8B4513;} /* SaddleBrown (Rusty Earth Tone) */
+    .five-things { background-color: #8B4513; } /* SaddleBrown (Rusty Earth Tone) */
+    .frostbyte-blog { background-color: #4682B4; } /* Steel Blue */
+    .natm-experience { background-color: #DEB887; } /* Sandy Color (BurlyWood) */
+
     /* Hover Effects */
     .big-idea-1:hover { background-color: #A0522D; } /* Darker Canyon */
     .big-idea-3:hover { background-color: #B0A16A; } /* Deeper Sand */
     .big-idea-4:hover { background-color: #44582A; } /* Darker Green */
     .AP-CSA-MC:hover { background-color: #81BD33; } /* Brighter Sage */
-    .five-things:hover { background-color: #A0522D; }/* Darker Brown */
-
-
-
+    .five-things:hover { background-color: #A0522D; } /* Darker Brown */
+    .frostbyte-blog:hover { background-color: #36648B; } /* Darker Steel Blue */
+    .natm-experience:hover { background-color: #CDAA7D; } /* Darker Sandy Color */
 
     /* Footer (Optional) */
     .footer {
