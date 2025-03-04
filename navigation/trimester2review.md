@@ -4,23 +4,20 @@ title: Trimester 2 Final Review
 description: My blogs for the Trimester 2 Final Review
 permalink: /trimester2review/
 ---
-
 <div class="container">
     <h1>Trimester 2 Final Review</h1>
     <p>Explore the key ideas covered in this trimester:</p>
     <div class="button-container">
-        <a href="../big_idea_1/" class="btn big-idea-1">Big Idea 1 Blog</a>
-        <a href="../big_idea_3/" class="btn big-idea-3">Big Idea 3 Blog</a>
-        <a href="../big_idea_4/" class="btn big-idea-4">Big Idea 4 Blog</a>
+        <a href="https://github.com/users/blackstar3092/projects/1" class="btn kanban-board" target="_blank">Kanban Board</a>
+        <a href="../frostbyte_gemini/" class="btn frostbyte-gemini">Gemini-Frostbyte</a> 
+        <a href="../NATM_experience/" class="btn natm-experience">NATM Experience</a> 
+        <a href="../myroles/" class="btn My-Roles">My Roles and Contributions</a>
         <a href="../CSApractice/" class="btn AP-CSA-MC">AP CSA Multiple Choice Practice</a>
-        <a href="../5things/" class="btn five-things">5 Things That I Did</a>
-        <a href="../blog_frostbyte/" class="btn frostbyte-blog">Frostbyte Blog</a>
-        <a href="../NATM_experience/" class="btn natm-experience">NATM Experience</a> <!-- Updated Color -->
+        
     </div>
 </div>
 
 <style>
-
     .container {
         text-align: center;
         padding: 40px;
@@ -34,7 +31,7 @@ permalink: /trimester2review/
     /* Button Styling */
     .button-container {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 20px;
         margin-top: 20px;
         flex-wrap: wrap;
@@ -58,31 +55,18 @@ permalink: /trimester2review/
     }
 
     /* Earthy Desert Tones for Buttons */
-    .big-idea-1 { background-color: #D2691E; }  /* Reddish-Brown (Canyon Rock) */
-    .big-idea-3 { background-color: #C2B280; }  /* Sand Dune Beige */
-    .big-idea-4 { background-color: #556B2F; }  /* Cactus Green */
     .AP-CSA-MC { background-color: #709F34; }  /* Sage Green */
-    .five-things { background-color: #8B4513; } /* SaddleBrown (Rusty Earth Tone) */
+    .My-Roles { background-color: #8B4513; } /* SaddleBrown (Rusty Earth Tone) */
     .frostbyte-blog { background-color: #4682B4; } /* Steel Blue */
     .natm-experience { background-color: #DEB887; } /* Sandy Color (BurlyWood) */
+    .frostbyte-gemini { background-color: #6A5ACD; } /* Slate Blue for contrast */
+    .kanban-board { background-color: #A67B5B; } /* Warm Earthy Brown */
 
     /* Hover Effects */
-    .big-idea-1:hover { background-color: #A0522D; } /* Darker Canyon */
-    .big-idea-3:hover { background-color: #B0A16A; } /* Deeper Sand */
-    .big-idea-4:hover { background-color: #44582A; } /* Darker Green */
     .AP-CSA-MC:hover { background-color: #81BD33; } /* Brighter Sage */
-    .five-things:hover { background-color: #A0522D; } /* Darker Brown */
+    .My-Roles:hover { background-color: #A0522D; } /* Darker Brown */
     .frostbyte-blog:hover { background-color: #36648B; } /* Darker Steel Blue */
     .natm-experience:hover { background-color: #CDAA7D; } /* Darker Sandy Color */
-
-    /* Footer (Optional) */
-    .footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #A0522D; /* Reddish-Brown Rock */
-        color: white;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
+    .frostbyte-gemini:hover { background-color: #483D8B; } /* Darker Slate Blue */
+    .kanban-board:hover { background-color: #8B5E3B; } /* Darker Warm Earthy Brown */
 </style>
