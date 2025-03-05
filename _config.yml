@@ -7,33 +7,32 @@ baseurl: "/Elliot_2025"
 future: true
 remote_theme: pages-themes/cayman@v0.2.0
 minima:
+  nav_pages:
+    - navigation/blog.md
+    - navigation/search.md
+    - navigation/about.md
+    - navigation/journey.md
+    - navigation/music.md
+    - navigation/gamesandmore.md
+    - navigation/notebook.md
+    - navigation/notebook1.md
+    - navigation/notebook2.md
+    - navigation/notebook3.md
+    - navigation/cookieclicker.md
+    - navigation/calculator.md
+    - navigation/snakegame.md
+    - navigation/trimester2review.md
+    - README4YML.md
   skin: dark
   social_links:
     - { platform: github, user_url: "https://github.com/nighthawkcoders"}
     - { platform: x, user_url: "https://x.com/NighthawkCoding/" }
     - { platform: youtube, user_url: "https://www.youtube.com/@nighthawkcodingsociety2868" } 
+     
 # remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
 # remote_theme: pages-themes/time-machine@v0.2.0
-plugins:
-  - jekyll-remote-theme
-header_pages:
-  - navigation/blog.md
-  - navigation/search.md
-  - navigation/about.md
-  - navigation/journey.md
-  - navigation/music.md
-  - navigation/gamesandmore.md
-  - navigation/notebook.md
-  - navigation/notebook1.md
-  - navigation/notebook2.md
-  - navigation/notebook3.md
-  - navigation/cookieclicker.md
-  - navigation/calculator.md
-  - navigation/snakegame.md
-  - navigation/trimester2review.md
-  - README4YML.md
 
 
