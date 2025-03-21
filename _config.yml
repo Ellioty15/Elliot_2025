@@ -11,6 +11,12 @@ minima:
     - navigation/blog.md
     - navigation/search.md
     - navigation/about.md
+    - navigation/journey.md
+    - navigation/notebook.md
+    - navigation/notebook1.md
+    - navigation/notebook2.md
+    - navigation/notebook3.md
+    - navigation/trimester2review.md
   skin: dark
   social_links:
     - { platform: github, user_url: "https://github.com/nighthawkcoders"}
