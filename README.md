@@ -4,6 +4,16 @@ Nighthawk Pages is a project designed to support students in their Computer Scie
 
 GitHub Pages can be customized by the blogger to support computer science learnings as the student works through the pathway of using Javascript, Python/Flask, Java/Spring.  
 
+## Introduction to this project
+This repository powers the personal website of Elliot Yang, a high school student documenting his academic, creative, and personal development throughout the 2024–2025 school year. It includes a wide range of content—from coding projects and interactive dashboards to study notes and blog-style reflections—all designed to showcase growth, curiosity, and initiative.
+
+Explore the different sections of the site:
+
+Blogs – Personal reflections, challenges, and takeaways from school and life.
+
+Projects – Hands-on coding work, dashboards, and experiments.
+
+Notes – Academic notes and summaries or AP CSP
 ## Student Requirements
 
 Del Norte HS students will be required to review their personal GitHub Pages at each midterm and final.  This review will contain a compilation of personal work performed within each significant grading period.
