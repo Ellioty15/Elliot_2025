@@ -39,6 +39,7 @@ hide: true
       <td><a href="{{site.baseurl}}/hw1/">3.2</a></td>
       <td><a href="{{site.baseurl}}/hw2/">3.10</a></td>
       <td><a href="{{site.baseurl}}/Sprint2blog/">Sprint 2 Review Blog</a></td>
+      <td><a href="{{site.baseurl}}/resume">Resume and personal info</a></td>
       
     </tr>
   </table>
