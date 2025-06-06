@@ -6,64 +6,43 @@ permalink: /resume
 hide: false
 ---
 
-<div class="bg-gradient-to-br from-blue-50 to-white min-h-screen flex flex-col items-center justify-center p-6 space-y-8">
-  <!-- Profile Photo -->
-  <div class="w-64 h-64 transform hover:scale-[1.02] transition-transform duration-300">
-    <img src="{{site.baseurl}}/images/me.jpg" alt="Profile Photo" class="rounded-2xl shadow-xl w-full h-full object-cover object-center" />
+<div class="bg-gradient-to-br from-blue-50 to-white min-h-screen flex flex-col items-center justify-center p-8 space-y-12">
+
+  <!-- Profile Section -->
+  <div class="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-xl border-4 border-red-200 transform hover:scale-105 transition duration-300">
+    <img src="{{site.baseurl}}/images/me.jpg" alt="Elliot Yang" class="w-full h-full object-cover object-center" />
   </div>
 
-  <!-- Card Section -->
-  <div class="flex flex-col lg:flex-row gap-8 w-full max-w-5xl">
+  <!-- Name + Role -->
+  <div class="text-center space-y-1">
+    <h1 class="text-3xl font-bold text-gray-800">Elliot Yang</h1>
+    <p class="text-lg text-gray-600">High School Junior • Dashboard Developer • Intern @ Code Ninjas</p>
+  </div>
 
-    <!-- Left Card - Contact Info -->
-    <div class="flex-1 bg-white rounded-2xl border border-red-200 shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-      <div class="space-y-6">
-        <h3 class="text-2xl font-bold text-gray-800 text-center mb-6">Contact Information</h3>
-        <div class="grid grid-cols-1 gap-4 text-gray-700">
-          <a href="mailto:elliotyschool@gmail.com" class="flex items-center gap-3 p-3 rounded-lg hover:bg-red-50 transition-colors duration-200">
-            <img src="https://img.icons8.com/color/24/gmail.png" alt="Gmail" class="w-6 h-6"/>
-            <span class="font-medium">elliotyschool@gmail.com</span>
-          </a>
-          <a href="https://www.linkedin.com/in/elliot-yang-841686368" target="_blank" class="flex items-center gap-3 p-3 rounded-lg hover:bg-red-50 transition-colors duration-200">
-            <img src="https://img.icons8.com/color/24/linkedin.png" alt="LinkedIn" class="w-6 h-6"/>
-            <span class="font-medium">LinkedIn Profile</span>
-          </a>
-          <a href="https://github.com/ellioty15" target="_blank" class="flex items-center gap-3 p-3 rounded-lg hover:bg-red-50 transition-colors duration-200">
-            <img src="https://img.icons8.com/material-outlined/24/github.png" alt="GitHub" class="w-6 h-6"/>
-            <span class="font-medium">GitHub Profile</span>
-          </a>
-        </div>
+  <!-- Contact Blocks -->
+  <div class="w-full max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        <!-- Download vCard Button -->
-        <div class="pt-4 text-center">
-          <button onclick="downloadVCard()" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg transform hover:scale-105">
-            📄 Download vCard
-          </button>
-        </div>
-      </div>
+    <!-- Email Card -->
+    <div class="bg-white rounded-2xl border border-red-200 p-6 shadow-lg hover:shadow-xl transition text-center space-y-3">
+      <img src="https://img.icons8.com/color/48/gmail.png" alt="Gmail" class="mx-auto w-10 h-10" />
+      <p class="text-sm text-gray-500 font-medium">Email</p>
+      <a href="mailto:elliotyschool@gmail.com" class="text-base font-semibold text-red-600 hover:underline">elliotyschool@gmail.com</a>
     </div>
 
-    <!-- Right Card - QR Code -->
-    <div class="flex-1 bg-white rounded-2xl border border-red-200 shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-center space-y-6">
-      <div class="text-center space-y-4">
-        <h3 class="text-2xl font-bold text-gray-800">Quick Connect</h3>
-      </div>
-      <!-- QR Codes Container -->
-      <div class="flex flex-col gap-6 items-center justify-center">
-        <div class="text-center space-y-2">
-          <div class="transform hover:scale-105 transition-transform duration-300">
-            <img src="{{site.baseurl}}/images/vcard.png" alt="vCard QR Code" class="w-48 h-48 rounded-xl shadow-md border border-gray-200" />
-          </div>
-          <p class="text-sm text-gray-600 font-medium">This Page</p>
-        </div>
-        <div class="text-center space-y-2">
-          <div class="transform hover:scale-105 transition-transform duration-300">
-            <img src="{{site.baseurl}}/images/home.png" alt="Website QR Code" class="w-48 h-48 rounded-xl shadow-md border border-gray-200" />
-          </div>
-          <p class="text-sm text-gray-600 font-medium">Portfolio Website</p>
-        </div>
-      </div>
+    <!-- LinkedIn Card -->
+    <div class="bg-white rounded-2xl border border-red-200 p-6 shadow-lg hover:shadow-xl transition text-center space-y-3">
+      <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" class="mx-auto w-10 h-10" />
+      <p class="text-sm text-gray-500 font-medium">LinkedIn</p>
+      <a href="https://www.linkedin.com/in/elliot-yang-841686368" target="_blank" class="text-base font-semibold text-red-600 hover:underline">View Profile</a>
     </div>
+
+    <!-- vCard Download -->
+    <div class="bg-white rounded-2xl border border-red-200 p-6 shadow-lg hover:shadow-xl transition text-center space-y-3">
+      <img src="https://img.icons8.com/fluency/48/download.png" alt="Download" class="mx-auto w-10 h-10" />
+      <p class="text-sm text-gray-500 font-medium">vCard</p>
+      <button onclick="downloadVCard()" class="text-base font-semibold text-red-600 hover:underline">Download Contact Card</button>
+    </div>
+
   </div>
 </div>
 
